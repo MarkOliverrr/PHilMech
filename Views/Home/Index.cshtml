@@ -1,0 +1,447 @@
+﻿@{
+    ViewData["Title"] = "Content Management System";
+}
+
+<div class="content__header content__boxed">
+    <div class="content__wrap"">
+        @*<div class="row">
+            <div class="col-md-12 mb-3">
+                <h2 class="page-title">Procurement Management Information System</h2>
+            </div>
+        </div>*@
+        <!-- Breadcrumb -->
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb mb-0">
+                <li class="breadcrumb-item"><a href="./index.html">Home</a></li>
+                <li class="breadcrumb-item"><a href="./layouts.html">Modules</a></li>   
+                <li class="breadcrumb-item active" aria-current="page">Content Management System</li>
+            </ol>
+        </nav>
+        <!-- END : Breadcrumb -->
+
+        <h3 class="mb-0 mt-2 text-primary">@ViewData["Title"]</h3>
+
+        <!--<p class="lead">
+            The navigation will transform into a small vertical bar that will save you space for the content to be displayed on the screen.
+        </p>-->
+
+    </div>
+</div>
+<div class="content__boxed">
+    <div class="content__wrap">
+        <div class="row justify-content-md-center">
+            <div class="col-lg-10">
+                <br>
+                <div class="card-header toolbar d-flex justify-content-between align-items-center">
+
+    <div class="toolbar-start d-flex align-items-center gap-2">
+        <div class="position-relative">
+            <input type="text" class="form-control" placeholder="Search content">
+            <span class="search-icon position-absolute top-50 end-0 translate-middle-y me-3">🔍</span>
+        </div>
+    </div>
+
+    <div class="toolbar-end d-flex gap-2">
+        
+        <!-- Dropdown -->
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                Select Section
+            </button>
+            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">I. Agency´s Mandate, Vision, Mission and List of Officials</a></li>
+                                <li><a class="dropdown-item" href="#">II.	Annual Financial Reports </a></li>
+                                <li><a class="dropdown-item" href="#">III.	Dbm Approved Budget and Targets </a></li>
+                                <li><a class="dropdown-item" href="#">IV.	Projects, Programs and activities, and status of implementation</a></li>
+                                <li><a class="dropdown-item" href="#">V.	System of rating and ranking delivery units and individuals </a></li>
+                                <li><a class="dropdown-item" href="#">VI.	Annual procurement plan</a></li>
+                                <li><a class="dropdown-item" href="#">VII.	Quality management system certified by 
+                                    international cerifying body or agency operations manual</a></li>
+                                <li><a class="dropdown-item" href="#">VIII.	The agency review and compliance procedure of statements and financial disclosures</a></li>
+                                <li><a class="dropdown-item" href="#">IX.	Freedom of information</a></li>
+                                <li><a class="dropdown-item" href="#">X.	Accountability report cards</a></li>
+                                <li><a class="dropdown-item" href="#">XI.	Certificate compliance </a></li>
+                                <li><a class="dropdown-item" href="#">XII.	Philmech sub-committee on anti-red tape</a></li>
+            </ul>
+        </div>
+
+        <!-- Add Section Button -->
+        <a href="#" class="btn btn-primary">
+            + Add Section
+        </a>
+
+    </div>
+</div>
+               
+                <div class="card h-400">
+                    <div class="card-header toolbar">
+                        <div class="toolbar-start">
+                        <h3 class="text-center">
+                            I. Agency´s Mandate, Vision, Mission and List of Officials
+                        </h3>
+                        </div>
+                        <div class="toolbar-end">
+                            <a href="#" class="btn btn-primary" role="button" data-bs-toggle="button">
+                                Add Contents
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="card-body">
+                        <div class="table-responsive">
+                            <table class="table table-striped">
+                                <thead>
+                                    <tr>
+                                        <th width="5%">Action</th>
+                                        <th>P.R. No.</th>
+                                        <th>Date</th>
+                                        <th>Division</th>
+                                            
+                                        <th>Purpose</th>
+                                        <th>Type</th>
+                                        <th>Total Amount</th>
+                                        <th>Encoder</th>
+                                        <th>Status</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>    
+                                            <div class="btn-group">
+                                                <button type="button" class="btn btn-sm btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                                    <i class="fa fa-list"></i>
+                                                </button>
+                                                <ul class="dropdown-menu" style="">
+                                                    <li><a class="dropdown-item" href="#">Edit</a></li>
+                                                    <li><a class="dropdown-item" href="#">Delete</a></li>
+                                                </ul>
+                                            </div>
+                                        </td>
+                                        <td><a href="#" class="btn-link">23-07-A-171</a></td>
+                                        <td>07-13-2023</td>
+                                        <td>PMITD</td>
+                                            
+                                        <td>Training and workshop in Tagaytay City, Cavite</td>
+                                        <td>Food and Accommodation</td>
+                                        <td>
+                                            264,000.00
+                                        </td>
+                                        <td>Jonathan Alex Lagmay</td>
+                                        <th>Pending</th>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="btn-group">
+                                                <button type="button" class="btn btn-sm btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                                    <i class="fa fa-list"></i>
+                                                </button>
+                                                <ul class="dropdown-menu" style="">
+                                                    <li><a class="dropdown-item" href="#">Edit</a></li>
+                                                    <li><a class="dropdown-item" href="#">Delete</a></li>
+                                                </ul>
+                                            </div>
+                                        </td>
+                                        <td><a href="#" class="btn-link">23-07-A-169</a></td>
+                                        <td>07-13-2023</td>
+                                        <td>PMITD</td>
+                                            
+                                        <td>Validation in Tarlac City and Baler</td>
+                                        <td>Vehicle rental</td>
+                                        <td>
+                                            40,000.00
+                                        </td>
+                                        <td>Jonathan Alex Lagmay</td>
+                                        <th>Approved</th>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="btn-group">
+                                                <button type="button" class="btn btn-sm btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                                    <i class="fa fa-list"></i>
+                                                </button>
+                                                <ul class="dropdown-menu" style="">
+                                                    <li><a class="dropdown-item" href="#">Edit</a></li>
+                                                    <li><a class="dropdown-item" href="#">Delete</a></li>
+                                                </ul>
+                                            </div>
+                                        </td>
+                                        <td><a href="#" class="btn-link">23-07-A-169</a></td>
+                                        <td>07-13-2023</td>
+                                        <td>PMITD</td>
+                                            
+                                        <td>Validation in Tarlac City and Baler</td>
+                                        <td>Vehicle rental</td>
+                                        <td>
+                                            40,000.00
+                                        </td>
+                                        <td>Jonathan Alex Lagmay</td>
+                                        <th>Approved</th>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                </div>
+
+               <br>
+
+                <div class="card h-400">
+                    <div class="card-header toolbar">
+                        <div class="toolbar-start">
+                            <h3 class="text-center">
+                                II. Annual Financial Reports
+                            </h3>
+                           
+                        </div>
+                        <div class="toolbar-end">
+                             <div class="dropdown">
+                                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                                    Select Section
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li>   <a class="dropdown-item" href="#">  A. SAAOBDB (Statement of Appropriations, Allotments, Obligations, Disbursements and Balances)</a> </li>
+                                    <li><a class="dropdown-item" href="#">B. Summary Report on Disbursement</a</li>
+                                    <li><a class="dropdown-item" href="#">C. Quarterly Physical Report of Operations/Physical Plan</a></li>
+                                    <li><a class="dropdown-item" href="#">D. Quarterly Report on Revenue and Other Receipts</a></li>
+                                    <li><a class="dropdown-item" href="#">E. Financial Plan </a></li>
+                               </ul>
+                            </div>
+    
+                            <a href="#" class="btn btn-primary" role="button" data-bs-toggle="button">
+                                Add Contents
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="card-body">
+                        <div class="table-responsive">
+                            <table class="table table-striped">
+                                <thead>
+                                    <tr>
+                                        <th width="5%">Action</th>
+                                        <th>P.R. No.</th>
+                                        <th>Date</th>
+                                        <th>Division</th>
+
+                                        <th>Purpose</th>
+                                        <th>Type</th>
+                                        <th>Total Amount</th>
+                                        <th>Encoder</th>
+                                        <th>Status</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <div class="btn-group">
+                                                <button type="button" class="btn btn-sm btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                                    <i class="fa fa-list"></i>
+                                                </button>
+                                                <ul class="dropdown-menu" style="">
+                                                    <li><a class="dropdown-item" href="#">Edit</a></li>
+                                                    <li><a class="dropdown-item" href="#">Delete</a></li>
+                                                </ul>
+                                            </div>
+                                        </td>
+                                        <td><a href="#" class="btn-link">23-07-A-171</a></td>
+                                        <td>07-13-2023</td>
+                                        <td>PMITD</td>
+
+                                        <td>Training and workshop in Tagaytay City, Cavite</td>
+                                        <td>Food and Accommodation</td>
+                                        <td>
+                                            264,000.00
+                                        </td>
+                                        <td>Jonathan Alex Lagmay</td>
+                                        <th>Pending</th>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="btn-group">
+                                                <button type="button" class="btn btn-sm btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                                    <i class="fa fa-list"></i>
+                                                </button>
+                                                <ul class="dropdown-menu" style="">
+                                                    <li><a class="dropdown-item" href="#">Edit</a></li>
+                                                    <li><a class="dropdown-item" href="#">Delete</a></li>
+                                                </ul>
+                                            </div>
+                                        </td>
+                                        <td><a href="#" class="btn-link">23-07-A-169</a></td>
+                                        <td>07-13-2023</td>
+                                        <td>PMITD</td>
+
+                                        <td>Validation in Tarlac City and Baler</td>
+                                        <td>Vehicle rental</td>
+                                        <td>
+                                            40,000.00
+                                        </td>
+                                        <td>Jonathan Alex Lagmay</td>
+                                        <th>Approved</th>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="btn-group">
+                                                <button type="button" class="btn btn-sm btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                                    <i class="fa fa-list"></i>
+                                                </button>
+                                                <ul class="dropdown-menu" style="">
+                                                    <li><a class="dropdown-item" href="#">Edit</a></li>
+                                                    <li><a class="dropdown-item" href="#">Delete</a></li>
+                                                </ul>
+                                            </div>
+                                        </td>
+                                        <td><a href="#" class="btn-link">23-07-A-169</a></td>
+                                        <td>07-13-2023</td>
+                                        <td>PMITD</td>
+
+                                        <td>Validation in Tarlac City and Baler</td>
+                                        <td>Vehicle rental</td>
+                                        <td>
+                                            40,000.00
+                                        </td>
+                                        <td>Jonathan Alex Lagmay</td>
+                                        <th>Approved</th>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                </div>
+                <br>
+                <div class="card h-400">
+                    <div class="card-header toolbar">
+                        <div class="toolbar-start">
+                            <h3 class="text-center">
+                                III. DBM Approved Budget and Targets </h3>
+                        </div>
+                        <div class="toolbar-end">
+                             <div class="dropdown">
+                                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                                    Select Year
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li>   <a class="dropdown-item" href="#">2025</a> </li>
+                                    <li>   <a class="dropdown-item" href="#">2024</a> </li>
+                                    <li>   <a class="dropdown-item" href="#">2023</a> </li>
+                                    <li>   <a class="dropdown-item" href="#">2022</a> </li>
+                                    <li>   <a class="dropdown-item" href="#">2021</a> </li>
+                                    <li>   <a class="dropdown-item" href="#">2020</a> </li>
+                                    <li>   <a class="dropdown-item" href="#">2019</a> </li>
+                                    
+                               </ul>
+                            </div>
+    
+                            <a href="#" class="btn btn-primary" role="button" data-bs-toggle="button">
+                                Add Contents
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="card-body">
+                        <div class="table-responsive">
+                            <table class="table table-striped">
+                                <thead>
+                                    <tr>
+                                        <th width="5%">Action</th>
+                                        <th>P.R. No.</th>
+                                        <th>Date</th>
+                                        <th>Division</th>
+
+                                        <th>Purpose</th>
+                                        <th>Type</th>
+                                        <th>Total Amount</th>
+                                        <th>Encoder</th>
+                                        <th>Status</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <div class="btn-group">
+                                                <button type="button" class="btn btn-sm btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                                    <i class="fa fa-list"></i>
+                                                </button>
+                                                <ul class="dropdown-menu" style="">
+                                                    <li><a class="dropdown-item" href="#">Edit</a></li>
+                                                    <li><a class="dropdown-item" href="#">Delete</a></li>
+                                                </ul>
+                                            </div>
+                                        </td>
+                                        <td><a href="#" class="btn-link">23-07-A-171</a></td>
+                                        <td>07-13-2023</td>
+                                        <td>PMITD</td>
+
+                                        <td>Training and workshop in Tagaytay City, Cavite</td>
+                                        <td>Food and Accommodation</td>
+                                        <td>
+                                            264,000.00
+                                        </td>
+                                        <td>Jonathan Alex Lagmay</td>
+                                        <th>Pending</th>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="btn-group">
+                                                <button type="button" class="btn btn-sm btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                                    <i class="fa fa-list"></i>
+                                                </button>
+                                                <ul class="dropdown-menu" style="">
+                                                    <li><a class="dropdown-item" href="#">Edit</a></li>
+                                                    <li><a class="dropdown-item" href="#">Delete</a></li>
+                                                </ul>
+                                            </div>
+                                        </td>
+                                        <td><a href="#" class="btn-link">23-07-A-169</a></td>
+                                        <td>07-13-2023</td>
+                                        <td>PMITD</td>
+
+                                        <td>Validation in Tarlac City and Baler</td>
+                                        <td>Vehicle rental</td>
+                                        <td>
+                                            40,000.00
+                                        </td>
+                                        <td>Jonathan Alex Lagmay</td>
+                                        <th>Approved</th>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="btn-group">
+                                                <button type="button" class="btn btn-sm btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                                    <i class="fa fa-list"></i>
+                                                </button>
+                                                <ul class="dropdown-menu" style="">
+                                                    <li><a class="dropdown-item" href="#">Edit</a></li>
+                                                    <li><a class="dropdown-item" href="#">Delete</a></li>
+                                                </ul>
+                                            </div>
+                                        </td>
+                                        <td><a href="#" class="btn-link">23-07-A-169</a></td>
+                                        <td>07-13-2023</td>
+                                        <td>PMITD</td>
+
+                                        <td>Validation in Tarlac City and Baler</td>
+                                        <td>Vehicle rental</td>
+                                        <td>
+                                            40,000.00
+                                        </td>
+                                        <td>Jonathan Alex Lagmay</td>
+                                        <th>Approved</th>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+           
+
+    </div>
+</div>
+    
+

@@ -1,0 +1,8 @@
+H:\Others\Template\PHilMech_Template_2\obj\Release\net6.0\PubTmp\Out\PHilMech_Template_2.exe
+H:\Others\Template\PHilMech_Template_2\obj\Release\net6.0\PubTmp\Out\appsettings.Development.json
+H:\Others\Template\PHilMech_Template_2\obj\Release\net6.0\PubTmp\Out\appsettings.json
+H:\Others\Template\PHilMech_Template_2\obj\Release\net6.0\PubTmp\Out\libman.json
+H:\Others\Template\PHilMech_Template_2\obj\Release\net6.0\PubTmp\Out\PHilMech_Template_2.dll
+H:\Others\Template\PHilMech_Template_2\obj\Release\net6.0\PubTmp\Out\PHilMech_Template_2.deps.json
+H:\Others\Template\PHilMech_Template_2\obj\Release\net6.0\PubTmp\Out\PHilMech_Template_2.runtimeconfig.json
+H:\Others\Template\PHilMech_Template_2\obj\Release\net6.0\PubTmp\Out\PHilMech_Template_2.pdb
