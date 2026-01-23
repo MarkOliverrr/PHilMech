@@ -5,6 +5,7 @@ wwwroot\css\template-icons.css
 wwwroot\css\template-icons.min.css
 wwwroot\css\template-settings.css
 wwwroot\css\template-settings.min.css
+wwwroot\css\template.css
 wwwroot\css\template.min.css
 wwwroot\favicon.ico
 wwwroot\img\color-schemes\brand.png
@@ -2740,4 +2741,3 @@ wwwroot\scss\nifty\nifty-admin\node_modules\bootstrap\scss\_transitions.scss
 wwwroot\scss\nifty\nifty-admin\node_modules\bootstrap\scss\_type.scss
 wwwroot\scss\nifty\nifty-admin\node_modules\bootstrap\scss\_utilities.scss
 wwwroot\scss\nifty\nifty-admin\node_modules\bootstrap\scss\_variables.scss
-wwwroot\css\template.css
