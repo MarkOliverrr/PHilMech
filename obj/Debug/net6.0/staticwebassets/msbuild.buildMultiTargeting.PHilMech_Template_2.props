@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\build\PHilMech_Template_2.props" />
-</Project>
