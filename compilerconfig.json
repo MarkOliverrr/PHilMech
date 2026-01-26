@@ -1,0 +1,18 @@
+﻿[
+  {
+    "outputFile": "wwwroot/css/template.css",
+    "inputFile": "wwwroot/scss/nifty/nifty-admin/nifty.scss"
+  },
+  {
+    "outputFile": "wwwroot/css/bootstrap.css",
+    "inputFile": "wwwroot/scss/nifty/nifty-admin/bootstrap.scss"
+  },
+  {
+    "outputFile": "wwwroot/css/template-icons.css",
+    "inputFile": "wwwroot/scss/nifty/nifty-admin/demo-purpose/demo-icons.scss"
+  },
+  {
+    "outputFile": "wwwroot/css/template-settings.css",
+    "inputFile": "wwwroot/scss/nifty/nifty-admin/demo-purpose/demo-settings.scss"
+  }
+]
