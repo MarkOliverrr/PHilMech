@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PHilMech_Template_2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f3852770cb28a8af6a2c28a15d6a41e97acf2b3f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e5cde74d2d105cf2a5170cf4fbf02c7eb89f7948")]
 [assembly: System.Reflection.AssemblyProductAttribute("PHilMech_Template_2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PHilMech_Template_2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
